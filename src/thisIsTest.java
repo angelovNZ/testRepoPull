@@ -5,13 +5,16 @@ public class thisIsTest {
         String hello;
 
         System.out.println("Here it will be posted some tests! ");
+        /* The xMan is changing
+         */
 
-        for (int i = 0; i <= 10; i++) {
+        System.out.print("Starting after ... ");
+        for (int i = 10; i >= 0; i--) {
             i += numb;
-            if (i < 10) {
+            if (i <= 10 && i >= 1) {
                 hello = " " + i + ", ";
             } else {
-                hello = " " + i + " END! ";
+                hello = " " + i + " ...  FIGHT !!! ";
             }
             System.out.print(hello);
         }
